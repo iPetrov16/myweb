@@ -1,20 +1,22 @@
 body{
     font-family:Arial, Helvetica, sans-serif ;
+    margin: 0;
 }
+
 header,
 footer{
     background-color: #1f2937;
 }
 
 .hero,
-.quote,
-.signup{
+.quote{
     height: 500px;
 }
 
 .header-logo{
     font-size: 24px;
     color: #f9faf8;
+    font-weight: bold;
 }
 
 .header-links,
@@ -30,6 +32,7 @@ p{
 .text{
     font-size: 48px;
     color: #f9faf8;
+    font-weight: bold;
 }
 
 .navigation,
@@ -62,13 +65,16 @@ p{
 
 button{
     background-color: #3882f6;
-    padding: 5px 25px;
+    padding: 10px 30px;
     cursor: pointer;
     border-radius: 6px;
     color: white;
+    border-width: 0;
+    font-weight: bold;
 }
 
-.second{
+.second,
+.signup{
     height: 500px;
     display: flex;
     flex-direction: column;
@@ -82,6 +88,11 @@ button{
     padding: 0px 350px;
 }
 
+.stext{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
 .block>button{
     background-color: white;
     padding: 70px;
@@ -113,9 +124,45 @@ button{
 .quotebox{
     width: 900px;
 }
+
 .author{
     display: flex;
     justify-content: flex-end;
     font-size: 26px;
     font-weight: bold;
+}
+
+.box{
+    display: flex;
+    width: 1000px;
+    background-color: #3882f6;
+    padding: 50px;
+    border-radius: 8px;
+    justify-content: space-around;
+    color: white;
+}
+
+.one{
+    font-size: 22px;
+    font-weight: bold;
+}
+.two{
+    color: lightgray;
+}
+
+.box>button{
+    border-color: white;
+    border-style: solid;
+    font-size:medium;
+    padding: 0px 30px;
+    border-radius: 10px;
+    border-width: 2px;
+}
+
+footer{
+    color: white;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
