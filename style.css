@@ -1,0 +1,121 @@
+body{
+    font-family:Arial, Helvetica, sans-serif ;
+}
+header,
+footer{
+    background-color: #1f2937;
+}
+
+.hero,
+.quote,
+.signup{
+    height: 500px;
+}
+
+.header-logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header-links,
+p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header-links{
+    display: flex;
+    gap: 25px;
+}
+.text{
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.navigation,
+.hero{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 80%;
+    padding: 20px 0px;
+
+}
+
+.hero-pic{
+    display: flex;
+    background-color: silver;
+    width: 500px;
+    height: 250px;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 40%;
+}
+
+button{
+    background-color: #3882f6;
+    padding: 5px 25px;
+    cursor: pointer;
+    border-radius: 6px;
+    color: white;
+}
+
+.second{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.sblock{
+    display: flex;
+    padding: 0px 350px;
+}
+
+.block>button{
+    background-color: white;
+    padding: 70px;
+    border-color:  #3882f6;
+    border-width: 4px;
+    border-radius: 18px;
+}
+
+.block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    padding-bottom: 50px;
+}
+
+.quote{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: oblique;
+}
+
+.quotebox{
+    width: 900px;
+}
+.author{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 26px;
+    font-weight: bold;
+}
